@@ -29,6 +29,7 @@ const AddToCartPage = () => {
         <button onClick={handleIncrement}>+</button>
       </div>
       <button onClick={handleAddToCart}>Add to Cart</button>
+      <button onClick={handleAddToCart}>Checkout</button>
     </div>
   );
 };

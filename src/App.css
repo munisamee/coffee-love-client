@@ -51,9 +51,106 @@
 .page-img {
   width: 200px; /* Set the desired width */
   height: auto; /* Maintain aspect ratio */
-  margin: 20px; /* Add margin around the image */
+  margin: 10px; /* Add margin around the image */
+  padding: 20px;
+} 
+
+.home-page {
   padding: 20px;
 }
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* .product-item {
+  margin: 20px;
+}
+
+/* .page-img {
+  width: 200px;
+  height: auto;
+} */
+
+/* .add-to-cart-btn {
+  background-color: #8a8c8f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+} */
+
+/* .add-to-cart-btn:hover {
+  background-color: #0056b3;
+} */
+
+/* Align the "Add to Cart" button below the image */
+/* .product-item img {
+  display: block;
+  margin-bottom: 10px;
+} */ 
+
+/* Assuming you have a separate CSS file, let's call it HomePage.css */
+
+.product-item {
+  text-align: center; /* Align items in the center */
+  margin-bottom: 20px; /* Add space between product items */
+}
+
+.price {
+  font-size: 18px; /* Set font size for the price */
+  font-weight: bold; /* Make the price bold */
+  margin-bottom: 10px; /* Add space below the price */
+}
+
+.add-to-cart-btn {
+  display: block; /* Make the button a block element */
+  background-color: #9399a0; /* Example background color */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Add padding */
+  text-decoration: none; /* Remove underline */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add border radius */
+  transition: background-color 0.3s ease; /* Add transition for hover effect */
+}
+
+.add-to-cart-btn:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333; /* Example background color */
+  color: white; /* Example text color */
+  padding: 10px 0; /* Add padding for spacing */
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link button {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+.nav-link button:hover {
+  text-decoration: underline;
+}
+
+/* Add margin to the navbar */
+.navbar {
+  margin-bottom: 20px;
+}
+
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

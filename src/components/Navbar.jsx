@@ -32,7 +32,11 @@ function Navbar() {
       </NavLink>
       
       <NavLink to="/addtocart">
-        <button>Add to Cart</button>
+        <button>Cart</button>
+      </NavLink>
+
+      <NavLink to="/signup">
+        <button>Checkout</button>
       </NavLink>
 
       <NavLink to="/signup">
