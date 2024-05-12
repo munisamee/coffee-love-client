@@ -79,31 +79,3 @@ function NavbarComponent() {
   )
 }
 export default NavbarComponent;
-
-
-
-// {
-//   return (
-//   //   <nav>
-//   //     <NavLink to="/">
-//   //       <button>Home</button>
-//   //     </NavLink>
-      
-//   //     <NavLink to="/addtocart">
-//   //       <button>Cart</button>
-//   //     </NavLink>
-
-//   //     <NavLink to="/signup">
-//   //       <button>Checkout</button>
-//   //     </NavLink>
-
-//   //     <NavLink to="/signup">
-//   //       <button>Signup</button>
-//   //     </NavLink>
-
-//   //     <NavLink to="/login">
-//   //       <button>Login</button>
-//   //     </NavLink>
-//   //   </nav>
-//   // );
-// }
